@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+    <script src="index.js" defer></script>
+
+</head>
+<body>
+    <h1>SCOREBOARD</h1>
+    <div id="Scoreboard">
+
+        <div id="HomeTitle">HOME</div>
+            <div id="HomeScore">000</div>
+            <div id="HomeButtons">
+                <button class="btn" id="home1" onclick="HomeIncrement1()">1</button>
+                <button class="btn" id="home2" onclick="HomeIncrement2()">2</button>
+                <button class="btn" id="home3" onclick="HomeIncrement3()">3</button>
+            </div>
+
+        <div id="TimeTitle">TIME</div>
+            <div id="Timer-Display">00 : 00</div>
+            <div id="TimerButtons">
+                <button class="btn" id="GameStart" onclick="GameStart()">Start</button>
+                <button class="btn" id="GameStop" onclick="GameStop()">Stop</button>
+                <button class="btn" id="GameReset" onclick="GameReset()">Reset</button>
+            </div>
+
+        <div id="AwayTitle">AWAY</div>
+            <div id="AwayScore">000</div>
+            <div id="AwayButtons">
+                <button class="btn" id="away1" onclick="AwayIncrement1()">1</button>
+                <button class="btn" id="away2" onclick="AwayIncrement2()">2</button>
+                <button class="btn" id="away3" onclick="AwayIncrement3()">3</button>
+            </div>
+
+    
+    </div>
+</body>
+</html>
